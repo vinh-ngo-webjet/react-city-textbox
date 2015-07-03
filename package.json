@@ -1,0 +1,21 @@
+{
+  "name": "React-Typeahead",
+  "version": "0.0.1",
+  "author": "Vinh Ngo",
+  "description": "Code designed to find the elusive red blue blur",
+  "dependencies": {
+    "jquery": "^2.1.4",
+    "react": "^0.13.3",
+    "reactify": "^1.1.1",
+    "typeahead": "^0.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build-js": "browserify scripts/app.js -o scripts/bundle.js"
+  },
+  "browserify": {
+    "transform": [
+      "reactify"
+    ]
+  }
+}
